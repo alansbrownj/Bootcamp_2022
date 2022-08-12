@@ -13,3 +13,6 @@ qsub -I -A open -N "open_term" -l nodes=1:ppn=8:rhel7 -l walltime=4:00:10 -l mem
 
 ## Example parallel command
 
+```
+cut -f 1 human.info | parallel -j 4 "bigWigToBedGraph -chrom={} data/ENCFF451IKJ.bigWig data/{}.bedgraph"
+```
