@@ -3,7 +3,7 @@
 ## Extra software to add:
 
 ```
-time mamba install -c conda-forge jupyterlab jupyterlab-git git=2 matplotlib numpy ipykernel jupyter notebook pandas wget ucsc-bigwigtobedgraph parallel
+time mamba install -c conda-forge jupyterlab-git git=2 matplotlib numpy ipykernel jupyter notebook pandas wget ucsc-bigwigtobedgraph parallel
 ```
 
 ## Interactive node
