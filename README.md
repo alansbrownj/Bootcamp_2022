@@ -6,5 +6,10 @@
 time mamba install -c conda-forge jupyterlab jupyterlab-git git=2 matplotlib numpy ipykernel jupyter notebook pandas wget ucsc-bigwigtobedgraph parallel
 ```
 
+## Interactive node
+```
+qsub -I -A open -N "open_term" -l nodes=1:ppn=8:rhel7 -l walltime=4:00:10 -l mem=16gb
+```
+
 ## Example parallel command
 
