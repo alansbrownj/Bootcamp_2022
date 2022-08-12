@@ -3,5 +3,5 @@
 ## Extra software to add:
 
 ```
-time mamba install -c conda-forge jupyterlab jupyterlab-git git=2 matplotlib numpy ipykernel jupyter notebook
+time mamba install -c conda-forge jupyterlab jupyterlab-git git=2 matplotlib numpy ipykernel jupyter notebook pandas
 ```
