@@ -8,6 +8,10 @@ time mamba install -c conda-forge jupyterlab-git git=2 matplotlib numpy ipykerne
 ```
 mamba env create -f alan_bootcamp.yaml -n bootcamp
 ```
+```
+mamba env update -n bootcamp -f alan_bootcamp.yaml
+```
+
 ## Interactive node
 ```
 qsub -I -A open -N "open_term" -l nodes=1:ppn=8:rhel7 -l walltime=4:00:10 -l mem=16gb
